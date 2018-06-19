@@ -1,0 +1,48 @@
+{% extends 'pitanja/templateZavrsna.html' %}
+{% load staticfiles %}
+
+{% block title %} НИГП Упитник {% endblock title %}
+
+{% block content %}        
+<div id="top"></div>         
+<div id="headerwrap"> 
+	<header class="clearfix"> 
+		<h1 style="font-family:Segoe UI">Хвала Вам на учешћу !&nbsp;</h1> 
+		<div class="container"> 
+			<div class="row"> 
+</div>                     
+			<div class="row"> 
+				<div class="span12"> 
+					<ul class="icon"> 
+						<li> 
+							<a href="https://www.facebook.com/Republi%C4%8Dki-geodetski-zavod-589100767920677/?rf=222443444619465">
+								<img src="{% static 'img/facebook.jpg' %}"> 
+							</a>                                     
+						</li>&nbsp;&nbsp;                             
+						<li> 
+							<a href="http://www.rgz.gov.rs/"> 
+								<img src="{% static 'img/sajt.jpg' %}">
+							</a>
+						</li> &nbsp;&nbsp;                                
+						<li> 
+							<a href="https://www.youtube.com/channel/UC16gS0iWdfjgbqPUDPqRbOw"> 
+								<img src="{% static 'img/youtube.jpg' %}">
+							</a>
+						</li>                                 
+					</ul>                             
+				</div>                         
+			</div>                     
+		</div>                 
+	</header>             
+</div>         
+<div class="scrollblock"> 
+</div>         
+<script src="{% static 'js/bootstrap.js' %}"></script>         
+<script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>         
+<script src="{% static 'js/site.js' %}"></script>         
+
+<hr> 
+<div class="col-lg-10 col-lg-offset-1 text-center"> 
+	<p class="text-muted" style="font-size:22px; font-family:Segoe UI">РГЗ © 2017 Сва права задржана</p>
+</div>
+{% endblock content %}
